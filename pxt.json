@@ -1,0 +1,28 @@
+{
+    "name": "temp sensor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-18b20-v2only": "github:lionyhw/pxt-18b20-v2only#2964dcefcaf51009f0e60ab5c8914b3beccbc771",
+        "lcd1602": "github:xuefengedu/pxt-lcd1602_CN#0ecac824f43d544bf553459adb2696b5f0d3d8d2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.26",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
